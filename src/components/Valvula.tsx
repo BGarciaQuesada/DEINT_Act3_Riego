@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { Switch } from 'react-native-paper';
-import { Value } from '../InterfazRiego';
+import { Value } from '../config/entities/InterfazRiego';
 
 interface ValvulaProps {
   value: Value;
